@@ -10,6 +10,5 @@ namespace SocialMedia.Core.Entities
         public string Description { get; set; }
         public string Image { get; set; }
        
-
     }
 }
