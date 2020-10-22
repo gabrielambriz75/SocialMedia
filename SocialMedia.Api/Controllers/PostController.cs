@@ -14,7 +14,8 @@ namespace SocialMedia.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PostController : ControllerBase
+  
+    public class PostController :           ControllerBase
     {
         private readonly IPostRepository _postRepository;
         private readonly IMapper _mapper;
